@@ -1,0 +1,8 @@
+PyTest, Python için bir test çerçevesidir ve testleri yazmak ve yürütmek için bir dizi araç sağlar
+
+@pytest.fixture: Bu decorator, test fonksiyonlarından önce çalıştırılacak ve test fonksiyonları tarafından kullanılabilecek bir işlevi işaretler. Genellikle test fonksiyonları tarafından kullanılan ortak durumların oluşturulması için kullanılır.
+
+pytest.mark.skip: Bu decorator, belirli bir test fonksiyonunun geçici olarak atlanmasını sağlar.
+Bu, belirli bir testin hatalı olduğu durumlarda veya bir şeyler üzerinde çalışırken testlerinizi atlamak istediğinizde kullanışlıdır.
+
+@pytest.mark.timeout: Bu dekoratör, bir testin belirli bir sürede tamamlanmasını sağlar. Eğer test belirli bir sürede tamamlanamazsa, test hata verir ve başarısız olur.
